@@ -69,8 +69,8 @@ Try it
 
 ## Files and folders
 
-- controllers: business logic. Where the work is done (included some examples)
-- middlewares: intermediate logic to be executed before business code (authentication)
+- controllers: Business logic. Where the work is done (included some examples)
+- middlewares: Intermediate logic to be executed before business code (authentication)
 - constants.ts: Define port and server secret 
 - server.ts: API definition and server configuration (cors)
 
