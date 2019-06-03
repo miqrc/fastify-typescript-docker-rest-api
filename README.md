@@ -67,12 +67,12 @@ docker run -p 8080:8080 my/fast-server
 Try it
 [http://127.0.0.1:8080/public](http://127.0.0.1:8080/public)
 
-## FILES AND FOLDERS
+## Files and folders
 
 - controllers: business logic. Where the work is done (included some examples)
-- middlewares: intermediate logic to be execute before business code (authentication)
+- middlewares: intermediate logic to be executed before business code (authentication)
 - constants.ts: Define port and server secret 
-- server.ts: API definition and server configuration
+- server.ts: API definition and server configuration (cors)
 
 ## TODO
 
